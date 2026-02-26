@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { DayPicker } from 'react-day-picker';
 import { Calendar as CalendarIcon, Clock, CheckCircle2 } from 'lucide-react';
-import 'react-day-picker/dist/style.css';
+import 'react-day-picker/style.css';
 
 export default function Booking() {
   const [date, setDate] = useState<Date | undefined>(new Date());
